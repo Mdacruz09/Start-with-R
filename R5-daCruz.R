@@ -31,7 +31,7 @@ d <- data.frame(Spray=sp, Insect_number=In, Media=me, Median=med, Standard_error
 
 plot(count~spray, data = InsectSprays,
      ylab="Insect Number", xlab="Spray", 
-     main = "Effect of different sprays on the number of insects")
+     main = "Effect of sprays on insect number")
 
 #Used barplot because I am comparing few variables in the same category.
 
